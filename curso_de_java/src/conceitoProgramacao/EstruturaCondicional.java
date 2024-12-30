@@ -42,6 +42,18 @@ ordem crescente ou decrescente*/
 		/*Leia a hora inicial e a hora final de um jogo. A seguir calcule a duração do jogo, sabendo que o mesmo pode
 começar em um dia e terminar em outro, tendo uma duração mínima de 1 hora e máxima de 24 horas.*/
 		
+		/*System.out.println("digite a hora inicial do jogo:");
+		int horaInicial = sc.nextInt();
+		System.out.println("digite a hora final do jogo:");
+		int horaFinal = sc.nextInt();
+		int calculoHora;
+		if (horaInicial < horaFinal) 
+			calculoHora = horaFinal - horaInicial;
+		else
+			calculoHora = 24 - horaInicial + horaFinal;
+		
+		System.out.println("O JOGO DUROU " + calculoHora + " HORA(S)");*/
+
 		/*Com base na tabela abaixo, escreva um programa que leia o código de um item e a quantidade deste item. A
 seguir, calcule e mostre o valor da conta a pagar.*/
 		
@@ -65,7 +77,7 @@ Lembre que, se o salário for R$ 3002.00, a taxa que incide é de 8% apenas sobr
 salário que fica de R$ 0.00 até R$ 2000.00 é isenta de Imposto de Renda. No exemplo fornecido (abaixo), a taxa é
 de 8% sobre R$ 1000.00 + 18% sobre R$ 2.00, o que resulta em R$ 80.36 no total. O valor deve ser impresso com
 duas casas decimais.*/
-		
+		sc.close();
 	}
 
 }
