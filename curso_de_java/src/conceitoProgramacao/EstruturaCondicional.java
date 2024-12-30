@@ -104,7 +104,32 @@ Se o ponto estiver na origem, escreva a mensagem “Origem”.
 Se o ponto estiver sobre um dos eixos escreva “Eixo X” ou “Eixo Y”, conforme for a
 situação.*/
 		
+		/*System.out.println("digite o valor de x:");
+		double x = sc.nextDouble();
+		System.out.println("digite o valor de y:");
+		double y = sc.nextDouble();
 		
+		if (x == 0.0 && y == 0.0) {
+			System.out.println("Origem");
+		}
+		else if (x == 0.0) {
+			System.out.println("Eixo Y");
+		}
+		else if (y == 0.0) {
+			System.out.println("Eixo X");
+		}
+		else if (x > 0.0 && y > 0.0) {
+			System.out.println("Q1");
+		}
+		else if (x < 0.0 && y > 0.0) {
+			System.out.println("Q2");
+		}
+		else if (x < 0.0 && y < 0.0) {
+			System.out.println("Q3");
+		}
+		else {
+			System.out.println("Q4");
+		}*/
 		
 		/*Em um país imaginário denominado Lisarb, todos os habitantes ficam felizes em pagar seus impostos, pois sabem
 que nele não existem políticos corruptos e os recursos arrecadados são utilizados em benefício da população, sem
