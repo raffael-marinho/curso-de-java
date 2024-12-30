@@ -6,14 +6,24 @@ public class EstruturaCondicional {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		
 		//Fazer um programa para ler um número inteiro, e depois dizer se este número é negativo ou não.
-		System.out.println("digite o primeiro numero inteiro:");
+		
+		/*System.out.println("digite o primeiro numero inteiro:");
 		int numero = sc.nextInt();
 		if (numero<0) 
 			System.out.println("NEGATIVO");
 		else
-			System.out.println("NAO NEGATIVO");
+			System.out.println("NAO NEGATIVO");*/
+		
 		//Fazer um programa para ler um número inteiro e dizer se este número é par ou ímpar.
+		
+		/*System.out.println("digite o primeiro numero inteiro:");
+		int numero = sc.nextInt();
+		if (numero%2==0) 
+			System.out.println("PAR");
+		else
+			System.out.println("IMPAR");*/
 		
 		/*Leia 2 valores inteiros (A e B). Após, o programa deve mostrar uma mensagem "Sao Multiplos" ou "Nao sao
 Multiplos", indicando se os valores lidos são múltiplos entre si. Atenção: os números devem poder ser digitados em
