@@ -145,7 +145,7 @@ public class EstruturaCondicional {
 		 * (salario - 4500.0) * 0.28 + 1500.0 * 0.18 + 1000.0 * 0.08; } if
 		 * (calculoImposto == 0.0) { System.out.println("Isento"); } else {
 		 * System.out.printf("R$ %.2f%n", calculoImposto); }
-		 */
+		 */	
 		sc.close();
 	}
 
