@@ -29,6 +29,16 @@ public class EstruturaCondicional {
 Multiplos", indicando se os valores lidos são múltiplos entre si. Atenção: os números devem poder ser digitados em
 ordem crescente ou decrescente*/
 		
+		/*System.out.println("digite o primeiro numero inteiro:");
+		int numero1 = sc.nextInt();
+		System.out.println("digite o segundo numero inteiro:");
+		int numero2 = sc.nextInt();
+		
+		if (numero2%numero1 == 0 || numero1%numero2 == 0) 
+			System.out.println("Sao Multiplos");
+		else
+			System.out.println("Nao sao Multiplos");*/
+		
 		/*Leia a hora inicial e a hora final de um jogo. A seguir calcule a duração do jogo, sabendo que o mesmo pode
 começar em um dia e terminar em outro, tendo uma duração mínima de 1 hora e máxima de 24 horas.*/
 		
