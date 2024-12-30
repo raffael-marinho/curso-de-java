@@ -1,10 +1,12 @@
 package conceitoProgramacao;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class EstruturaCondicional {
 
 	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
 		//Fazer um programa para ler um número inteiro, e depois dizer se este número é negativo ou não.
@@ -57,7 +59,7 @@ começar em um dia e terminar em outro, tendo uma duração mínima de 1 hora e 
 		/*Com base na tabela abaixo, escreva um programa que leia o código de um item e a quantidade deste item. A
 seguir, calcule e mostre o valor da conta a pagar.*/
 		
-		System.out.println("digite o codigo do item:");
+		/*System.out.println("digite o codigo do item:");
 		int codigo = sc.nextInt();
 		System.out.println("digite a quantidade:");
 		int quantidade = sc.nextInt();
@@ -72,11 +74,28 @@ seguir, calcule e mostre o valor da conta a pagar.*/
 			System.out.println("Total: R$ " + quantidade*2.00);
 		}else if(codigo == 5) {
 			System.out.println("Total: R$ " + quantidade*1.50);
-		}
+		}*/
 		
 		/*Você deve fazer um programa que leia um valor qualquer e apresente uma mensagem dizendo em qual dos
 seguintes intervalos ([0,25], (25,50], (50,75], (75,100]) este valor se encontra. Obviamente se o valor não estiver em
 nenhum destes intervalos, deverá ser impressa a mensagem “Fora de intervalo”.*/
+		
+		/*System.out.println("digite o numero para saber em qual intervalo esta:");
+		double entrada = sc.nextDouble();
+		
+		if (entrada>=0.0) {
+			if (entrada<=25.0) {
+				System.out.println("Intervalo [0,25]\n");
+			}else if (25.0<entrada && entrada<=50.0) {
+				System.out.println("Intervalo [25,50]\n");
+			}else if (50.0<entrada && entrada<75.0) {
+				System.out.println("Intervalo [50,75]\n");
+			}else if (75.0<entrada && entrada<=100.0) {
+				System.out.println("Intervalo [75,100]\n");
+			}
+		}else {
+			System.out.println("Fora de intervalo");
+		}*/
 		
 		/*Leia 2 valores com uma casa decimal (x e y), que devem representar as coordenadas
 de um ponto em um plano. A seguir, determine qual o quadrante ao qual pertence o
