@@ -57,6 +57,23 @@ começar em um dia e terminar em outro, tendo uma duração mínima de 1 hora e 
 		/*Com base na tabela abaixo, escreva um programa que leia o código de um item e a quantidade deste item. A
 seguir, calcule e mostre o valor da conta a pagar.*/
 		
+		System.out.println("digite o codigo do item:");
+		int codigo = sc.nextInt();
+		System.out.println("digite a quantidade:");
+		int quantidade = sc.nextInt();
+		
+		if (codigo == 1) {
+			System.out.println("Total: R$ " + quantidade*4.00);
+		} else if(codigo == 2) {
+			System.out.println("Total: R$ " + quantidade*4.50);
+		}else if(codigo == 3) {
+			System.out.println("Total: R$ " + quantidade*5.00);
+		}else if(codigo == 4) {
+			System.out.println("Total: R$ " + quantidade*2.00);
+		}else if(codigo == 5) {
+			System.out.println("Total: R$ " + quantidade*1.50);
+		}
+		
 		/*Você deve fazer um programa que leia um valor qualquer e apresente uma mensagem dizendo em qual dos
 seguintes intervalos ([0,25], (25,50], (50,75], (75,100]) este valor se encontra. Obviamente se o valor não estiver em
 nenhum destes intervalos, deverá ser impressa a mensagem “Fora de intervalo”.*/
