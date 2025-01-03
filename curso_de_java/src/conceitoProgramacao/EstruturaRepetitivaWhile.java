@@ -13,7 +13,8 @@ public class EstruturaRepetitivaWhile {
 		 * a mensagem "Acesso Permitido" e o algoritmo encerrado. Considere que a senha
 		 * correta é o valor 2002.
 		 */
-		System.out.println("digite a senha:");
+
+		System.out.println("Digite a senha:");
 		int senha = sc.nextInt();
 
 		while (senha != 2002) {
@@ -29,6 +30,26 @@ public class EstruturaRepetitivaWhile {
 		 * uma de duas coordenadas for NULA (nesta situação sem escrever mensagem
 		 * alguma).
 		 */
+
+		System.out.println("Escreva o ponto X:");
+		int x = sc.nextInt();
+
+		System.out.println("Escreva o ponto Y:");
+		int y = sc.nextInt();
+
+		while (x != 0 && y != 0) {
+			if (x > 0 && y > 0) {
+				System.out.println("primeiro");
+			} else if (x < 0 && y > 0) {
+				System.out.println("segundo");
+			} else if (x < 0 && y < 0) {
+				System.out.println("terceiro");
+			} else {
+				System.out.println("quarto");
+			}
+			x = sc.nextInt();
+			y = sc.nextInt();
+		}
 
 		/*
 		 * Um Posto de combustíveis deseja determinar qual de seus produtos tem a
