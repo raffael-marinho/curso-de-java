@@ -14,14 +14,12 @@ public class EstruturaRepetitivaWhile {
 		 * correta é o valor 2002.
 		 */
 
-		System.out.println("Digite a senha:");
-		int senha = sc.nextInt();
-
-		while (senha != 2002) {
-			System.out.println("Senha Invalida");
-			senha = sc.nextInt();
-		}
-		System.out.println("Acesso Permitido");
+		/*
+		 * System.out.println("Digite a senha:"); int senha = sc.nextInt();
+		 * 
+		 * while (senha != 2002) { System.out.println("Senha Invalida"); senha =
+		 * sc.nextInt(); } System.out.println("Acesso Permitido");
+		 */
 
 		/*
 		 * Escreva um programa para ler as coordenadas (X,Y) de uma quantidade
@@ -31,25 +29,17 @@ public class EstruturaRepetitivaWhile {
 		 * alguma).
 		 */
 
-		System.out.println("Escreva o ponto X:");
-		int x = sc.nextInt();
-
-		System.out.println("Escreva o ponto Y:");
-		int y = sc.nextInt();
-
-		while (x != 0 && y != 0) {
-			if (x > 0 && y > 0) {
-				System.out.println("primeiro");
-			} else if (x < 0 && y > 0) {
-				System.out.println("segundo");
-			} else if (x < 0 && y < 0) {
-				System.out.println("terceiro");
-			} else {
-				System.out.println("quarto");
-			}
-			x = sc.nextInt();
-			y = sc.nextInt();
-		}
+		/*
+		 * System.out.println("Escreva o ponto X:"); int x = sc.nextInt();
+		 * 
+		 * System.out.println("Escreva o ponto Y:"); int y = sc.nextInt();
+		 * 
+		 * while (x != 0 && y != 0) { if (x > 0 && y > 0) {
+		 * System.out.println("primeiro"); } else if (x < 0 && y > 0) {
+		 * System.out.println("segundo"); } else if (x < 0 && y < 0) {
+		 * System.out.println("terceiro"); } else { System.out.println("quarto"); } x =
+		 * sc.nextInt(); y = sc.nextInt(); }
+		 */
 
 		/*
 		 * Um Posto de combustíveis deseja determinar qual de seus produtos tem a
@@ -60,6 +50,18 @@ public class EstruturaRepetitivaWhile {
 		 * será encerrado quando o código informado for o número 4. Deve ser escrito a
 		 * mensagem: "MUITO OBRIGADO" e a quantidade de clientes que abasteceram cada
 		 * tipo de combustível, conforme exemplo.
+		 */
+
+		/*
+		 * System.out.println("Digite sua opção:"); int numero = sc.nextInt(); int
+		 * alcool = 0; int gasolina = 0; int diesel = 0;
+		 * 
+		 * while (numero != 4) { if (numero == 1) { alcool += 1; } else if (numero == 2)
+		 * { gasolina += 1; } else if (numero == 3) { diesel += 1; } numero =
+		 * sc.nextInt(); } System.out.println("MUITO OBRIGADO");
+		 * System.out.printf("Alcool: %d \n", alcool);
+		 * System.out.printf("Gasolina: %d\n", gasolina);
+		 * System.out.printf("Diesel: %d\n", diesel);
 		 */
 		sc.close();
 	}
