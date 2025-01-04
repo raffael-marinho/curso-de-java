@@ -60,6 +60,20 @@ public class EstruturaRepetitivaFor {
 		 * mostrar a mensagem "divisao impossivel".
 		 */
 
+		/*int n = sc.nextInt();
+
+		for (int i = 0; i < n; i++) {
+
+			int x = sc.nextInt();
+			int y = sc.nextInt();
+
+			if (y == 0) {
+				System.out.println("divisao impossivel");
+			} else {
+				double div = (double) x / y;
+				System.out.printf("%.1f%n", div);
+			}
+		}/*
 		/*
 		 * Ler um valor N. Calcular e escrever seu respectivo fatorial. Fatorial de N =
 		 * N * (N-1) * (N-2) * (N-3) * ... * 1. Lembrando que, por definição, fatorial
