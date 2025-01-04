@@ -113,5 +113,6 @@ public class EstruturaSequencial {
 		 * "TRAPEZIO: %.3f\r\n" + "QUADRADO: %.3f\r\n" + "RETANGULO: %.3f", TRIANGULO,
 		 * CIRCULO, TRAPEZIO, QUADRADO, RETANGULO);
 		 */
+		sc.close();
 	}
 }

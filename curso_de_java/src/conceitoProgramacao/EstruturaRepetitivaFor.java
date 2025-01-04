@@ -1,13 +1,20 @@
 package conceitoProgramacao;
 
+import java.util.Scanner;
+
 public class EstruturaRepetitivaFor {
 
 	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
 		/*
 		 * Leia um valor inteiro X (1 <= X <= 1000). Em seguida mostre os ímpares de 1
 		 * até X, um valor por linha, inclusive o X, se for o caso.
 		 */
-
+		/*
+		 * System.out.println("digite o numero inteiro:"); int X = sc.nextInt(); int
+		 * mostrarImpar = 0; for (int i = 0; i <= X; i++) { if (i % 2 == 1) {
+		 * mostrarImpar = i; System.out.println(mostrarImpar); } }
+		 */
 		/*
 		 * Leia um valor inteiro N. Este valor será a quantidade de valores inteiros X
 		 * que serão lidos em seguida. Mostre quantos destes valores X estão dentro do
@@ -44,6 +51,7 @@ public class EstruturaRepetitivaFor {
 		 * mostrar o número da linha, depois o quadrado e o cubo do valor, conforme
 		 * exemplo.
 		 */
+		sc.close();
 
 	}
 
