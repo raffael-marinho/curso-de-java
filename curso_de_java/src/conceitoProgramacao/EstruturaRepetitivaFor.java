@@ -82,6 +82,11 @@ public class EstruturaRepetitivaFor {
 		/* Ler um número inteiro N e calcular todos os seus divisores. */
 
 		/*
+		 * int n = sc.nextInt();
+		 * 
+		 * for (int i = 1; i <= n; i++) { if (n % i == 0) { System.out.println(i); } }
+		 */
+		/*
 		 * Fazer um programa para ler um número inteiro positivo N. O programa deve
 		 * então mostrar na tela N linhas, começando de 1 até N. Para cada linha,
 		 * mostrar o número da linha, depois o quadrado e o cubo do valor, conforme
