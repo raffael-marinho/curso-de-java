@@ -24,11 +24,21 @@ public class EstruturaRepetitivaFor {
 		 */
 
 		/*
-		 * Leia 1 valor inteiro N, que representa o número de casos de teste que vem a
-		 * seguir. Cada caso de teste consiste de 3 valores reais, cada um deles com uma
-		 * casa decimal. Apresente a média ponderada para cada um destes conjuntos de 3
-		 * valores, sendo que o primeiro valor tem peso 2, o segundo valor tem peso 3 e
-		 * o terceiro valor tem peso 5.
+		 * System.out.println("digite o numero inteiro:"); int N = sc.nextInt(); int
+		 * dentroDoIntervalo10E20 = 0; int foraDoIntervalo10E20 = 0; int X = 0; for (int
+		 * i = 0; i <= N; i++) { X = sc.nextInt(); if (X >= 10 && X <= 20) {
+		 * dentroDoIntervalo10E20 += 1; } else { foraDoIntervalo10E20 += 1; } }
+		 * System.out.println(dentroDoIntervalo10E20 + "in");
+		 * System.out.println(foraDoIntervalo10E20 + "out");
+		 */
+		
+		/*
+		 * 
+		 * /* Leia 1 valor inteiro N, que representa o número de casos de teste que vem
+		 * a seguir. Cada caso de teste consiste de 3 valores reais, cada um deles com
+		 * uma casa decimal. Apresente a média ponderada para cada um destes conjuntos
+		 * de 3 valores, sendo que o primeiro valor tem peso 2, o segundo valor tem peso
+		 * 3 e o terceiro valor tem peso 5.
 		 */
 
 		/*
