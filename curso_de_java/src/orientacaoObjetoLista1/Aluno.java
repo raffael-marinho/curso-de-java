@@ -13,7 +13,7 @@ public class Aluno {
 		if (calculo < 60.00) {
 			System.out.println("NOTA FINAL = " + calculo);
 			System.out.println("REPROVADO");
-			System.out.println("Faltou cerca de :" + (calculo - restante));
+			System.out.println("Faltou cerca de :" + (restante - calculo));
 		} else {
 			System.out.println("NOTA FINAL = " + calculo);
 			System.out.println("APROVADO");
