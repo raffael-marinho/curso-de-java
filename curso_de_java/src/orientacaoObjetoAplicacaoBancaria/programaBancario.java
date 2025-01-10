@@ -38,16 +38,10 @@ public class programaBancario {
 		conta1.deposito(deposito);
 		System.out.println(conta1);
 
-		System.out.println("deseja sacar?");
-		char respostaSaque = sc.next().charAt(0);
-		if (respostaDeposito == 's') {
-			System.out.println("digite o valor de saque:");
-			double valorSaque = sc.nextDouble();
-			conta1.saque(valorSaque);
-		} else {
-			System.out.println("obrigado!");
-		}
-
+		System.out.println();
+		System.out.println("deposite um valor para saque:");
+		double saque = sc.nextDouble();
+		conta1.saque(saque);
 		System.out.println(conta1);
 
 		sc.close();
